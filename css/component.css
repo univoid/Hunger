@@ -13,7 +13,7 @@
 }
 
 .js .grid {
-	background: url(../img/loading.gif)  50% 100px;
+	background: url(../img/loading.gif) no-repeat 50% 100px;
 }
 
 .js .grid.loaded {
@@ -22,7 +22,7 @@
 
 .grid li {
 	display: inline-block;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	width: 320px;
 	text-align: left;
 	vertical-align: top;
@@ -270,3 +270,6 @@
 .grid li.shown h3 {
 	visibility: visible;
 }
+
+
+
