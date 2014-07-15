@@ -24,6 +24,7 @@
 
 
 body {
+    margin: auto;
     font-size: 100%;
     line-height: 1.25;
     font-family: 'OpenSans' , sans-serif;
@@ -36,7 +37,7 @@ p,h1,h2,h3,h4,h5 {
 }
 
 ul img {
-    width: 350px;
+    width: 300px;
     max-height: 600px;
 }
 
