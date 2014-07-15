@@ -37,17 +37,27 @@ p,h1,h2,h3,h4,h5 {
 }
 
 ul img {
-    width: 300px;
+    width: 350px;
     max-height: 600px;
 }
 
 .header h1 {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 1000%;
     font-family: 'seagle';
     color: #4F5359;
     text-align: center
+}
+
+.header h2 {
+    margin-top: 0;
+    margin-bottom: 5%;
+    color: #979DA6;
+    font-size: 275%;
+    font-weight: lighter;
+    /*font-stretch: extra-expanded;*/
+    text-align: center;
 }
 
 a {

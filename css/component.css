@@ -1,12 +1,12 @@
 .grid-wrap {
 	clear: both;
-	margin: 0 auto;
+	margin: auto;
 	padding: 0;
-	max-width: 1440px;
+	max-width: 1177px;
 }
 
 .grid {
-	margin: 50px auto;
+	margin: auto;
 	padding: 0;
 	list-style: none;
 	min-height: 600px;
@@ -23,7 +23,7 @@
 .grid li {
 	display: inline-block;
 	overflow: hidden;
-	width: 300px;
+	width: 350px;
 	text-align: left;
 	vertical-align: top;
 }
