@@ -50,6 +50,7 @@ ul img {
 }
 
 a {
+    /*opacity:1;*/
     color: #FF2A48;
     text-decoration: none;
     outline: none;
@@ -69,4 +70,8 @@ section {
     border-radius: 6px;
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.22);
 
+}
+/*rotate*/
+.placeholder h3 {
+    opacity: 0;
 }
