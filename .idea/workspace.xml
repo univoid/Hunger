@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fbe07e7-ccbe-4557-9788-24de2ca260df" name="Default" comment="after 3drotate">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/component.css" afterPath="$PROJECT_DIR$/css/component.css" />
+    <list default="true" id="9fbe07e7-ccbe-4557-9788-24de2ca260df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/rotate3d.css" afterPath="$PROJECT_DIR$/css/rotate3d.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hunger.iws" />
@@ -32,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="42" selection-start="598" selection-end="598" vertical-scroll-proportion="0.069139965" vertical-offset="247" max-vertical-offset="1488">
+            <state line="315" column="44" selection-start="56012" selection-end="56012" vertical-scroll-proportion="0.23102866" vertical-offset="607" max-vertical-offset="1488">
               <folding>
                 <element signature="tag#ul#0;tag#section#0;tag#div#0;tag#html#0" expanded="false" />
                 <element signature="tag#li#1;tag#ul#0;tag#section#0;tag#div#0;tag#html#0" expanded="false" />
@@ -82,8 +79,8 @@
         <option value="$PROJECT_DIR$/css/rotate3d.css" />
         <option value="$PROJECT_DIR$/js/grid3d.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/component.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -294,13 +291,18 @@
       <created>1405408626673</created>
       <updated>1405408626673</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="demo　完了">
+      <created>1405412832783</created>
+      <updated>1405412832783</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -316,7 +318,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2718894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -332,7 +333,8 @@
     <MESSAGE value="hunger_god" />
     <MESSAGE value="before fix modemizr and grid3d.js" />
     <MESSAGE value="after 3drotate" />
-    <option name="LAST_COMMIT_MESSAGE" value="after 3drotate" />
+    <MESSAGE value="demo　完了" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo　完了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,7 +351,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/rotate3d.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="511" selection-end="511" vertical-scroll-proportion="0.38247013" vertical-offset="0" max-vertical-offset="6744" />
+        <state line="12" column="43" selection-start="511" selection-end="511" vertical-scroll-proportion="0.38247013" vertical-offset="0" max-vertical-offset="6744">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
@@ -454,7 +458,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="598" selection-end="598" vertical-scroll-proportion="0.069139965" vertical-offset="247" max-vertical-offset="1488">
+        <state line="315" column="44" selection-start="56012" selection-end="56012" vertical-scroll-proportion="0.23102866" vertical-offset="607" max-vertical-offset="1488">
           <folding>
             <element signature="tag#ul#0;tag#section#0;tag#div#0;tag#html#0" expanded="false" />
             <element signature="tag#li#1;tag#ul#0;tag#section#0;tag#div#0;tag#html#0" expanded="false" />
