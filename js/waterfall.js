@@ -5,13 +5,12 @@ $(function(){
     $(window).scroll( function(){
         if ($(document).scrollTop() + $(window).height() > $(document).height() - 50) {
 //            appendText();
-            for (var i=0;i<5;i++) {
+            for (var i=0;i<6;i++) {
                 $("#grid").append("<li></li>").children().last().load("li.txt");
                 $("#content").append("<div></div>").children().last().load("content.txt");
             }
 //            hack method  low efficiency
             new GridScrollFx( document.getElementById( 'grid' ) );
-//            GridScrollFx.prototype._init();
             new grid3D( document.getElementById( 'waterfall' ) );
         }
     })

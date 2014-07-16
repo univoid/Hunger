@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fbe07e7-ccbe-4557-9788-24de2ca260df" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/component.css" afterPath="$PROJECT_DIR$/css/component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/gridScrollFx.js" afterPath="$PROJECT_DIR$/js/gridScrollFx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/waterfall.js" afterPath="$PROJECT_DIR$/js/waterfall.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hunger.iws" />
@@ -25,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="328" column="51" selection-start="56528" selection-end="56528" vertical-scroll-proportion="0.13103448" vertical-offset="2300" max-vertical-offset="2880">
+            <state line="20" column="68" selection-start="795" selection-end="795" vertical-scroll-proportion="-1.6428572" vertical-offset="434" max-vertical-offset="2928">
               <folding>
                 <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -42,7 +46,27 @@
                 <element signature="tag#div#9;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#10;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#11;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#12;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#13;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gridScrollFx.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/gridScrollFx.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="47" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.118421055" vertical-offset="1728" max-vertical-offset="5736">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="211" column="73" selection-start="3770" selection-end="3770" vertical-scroll-proportion="0.0" vertical-offset="4800" max-vertical-offset="5760">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,10 +102,11 @@
         <option value="$PROJECT_DIR$/css/rotate3d.css" />
         <option value="$PROJECT_DIR$/js/grid3d.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/component.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/waterfall.js" />
         <option value="$PROJECT_DIR$/content.txt" />
+        <option value="$PROJECT_DIR$/js/waterfall.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/component.css" />
+        <option value="$PROJECT_DIR$/js/gridScrollFx.js" />
       </list>
     </option>
   </component>
@@ -172,10 +197,15 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../infinite-scroll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hunger - Copy (2)" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\web\Hunger\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -279,7 +309,6 @@
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -295,6 +324,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2718894" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -319,16 +349,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/grid3d.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="22" selection-start="6432" selection-end="6436" vertical-scroll-proportion="0.33212996" vertical-offset="4136" max-vertical-offset="5760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="132" selection-end="132" vertical-scroll-proportion="0.38647342" vertical-offset="0" max-vertical-offset="6744" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="27" selection-start="1328" selection-end="1328" vertical-scroll-proportion="-0.57894737" vertical-offset="1624" max-vertical-offset="2232" />
@@ -374,18 +394,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/gridScrollFx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="46" selection-start="3826" selection-end="3826" vertical-scroll-proportion="1.8585858" vertical-offset="0" max-vertical-offset="1464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/waterfall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="14" selection-end="14" vertical-scroll-proportion="0.039473683" vertical-offset="0" max-vertical-offset="792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/li.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621" />
@@ -396,9 +404,30 @@
         <state line="15" column="52" selection-start="3224" selection-end="3224" vertical-scroll-proportion="0.59210527" vertical-offset="0" max-vertical-offset="624" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="58" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/grid3d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="54" selection-start="202" selection-end="202" vertical-scroll-proportion="-0.94736844" vertical-offset="576" max-vertical-offset="5760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="73" selection-start="3770" selection-end="3770" vertical-scroll-proportion="0.0" vertical-offset="5016" max-vertical-offset="5760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="328" column="51" selection-start="56528" selection-end="56528" vertical-scroll-proportion="0.13103448" vertical-offset="2300" max-vertical-offset="2880">
+        <state line="20" column="68" selection-start="795" selection-end="795" vertical-scroll-proportion="-1.6428572" vertical-offset="434" max-vertical-offset="2928">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -412,7 +441,16 @@
             <element signature="tag#div#9;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#10;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#11;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#12;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#13;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gridScrollFx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="47" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.118421055" vertical-offset="1728" max-vertical-offset="5736">
+          <folding />
         </state>
       </provider>
     </entry>

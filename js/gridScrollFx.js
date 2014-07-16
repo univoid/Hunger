@@ -23,7 +23,7 @@
 		// animation end event name
 		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
 
-	function getViewportH() {
+    function getViewportH() {
 		var client = docElem['clientHeight'],
 			inner = window['innerHeight'];
 		
@@ -88,7 +88,8 @@
 	GridItem.prototype.addCurtain = function() {
 		if( !this.image ) return;
 		this.curtain = document.createElement( 'div' );
-		this.curtain.className = 'curtain';
+//		this.curtain.className = 'curtain';
+        this.curtain.setAttribute('name', 'curtain');
 		var rgb = new ColorFinder( function favorHue(r,g,b) {
 			// exclude white
 			//if (r>245 && g>245 && b>245) return 0;
@@ -207,6 +208,7 @@
 					}
 					classie.remove( item.el, 'animate' );
 					classie.add( item.el, 'shown' );
+                    item.anchor.removeChild(item.anchor.childNodes[2]);
 				};
 
 				if( support.animations ) {
@@ -216,8 +218,10 @@
 					onEndAnimationFn();
 				}
 			}
+
 		});
 		this.didScroll = false;
+
 	}
 
 	GridScrollFx.prototype._resizeHandler = function() {
@@ -232,7 +236,8 @@
 		this.resizeTimeout = setTimeout( delayed, 1000 );
 	}
 
-	// add to global namespace
-	window.GridScrollFx = GridScrollFx;
+    // add to global namespace
+    window.GridScrollFx = GridScrollFx;
+
 
 } )( window );

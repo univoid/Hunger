@@ -83,11 +83,6 @@
 	background: #96cdc8;
 }
 
-.grid.swipe-right .curtain {
-	-webkit-transform: translate3d(-100%,0,0);
-	transform: translate3d(-100%,0,0);
-}
-
 .grid.swipe-down .curtain {
 	-webkit-transform: translate3d(0,-100%,0);
 	transform: translate3d(0,-100%,0);
@@ -169,25 +164,6 @@
 }
 
 /* Animations */
-
-/* Swipe right */
-.grid.swipe-right li.animate .curtain {
-	-webkit-animation: swipeRight 1.5s cubic-bezier(0.6,0,0.4,1) forwards;
-	animation: swipeRight 1.5s cubic-bezier(0.6,0,0.4,1) forwards;
-}
-
-@-webkit-keyframes swipeRight {
-	0% {} /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
-	50%, 60% { -webkit-transform: translate3d(0,0,0); }
-	100% { -webkit-transform: translate3d(100%,0,0); }
-}
-
-@keyframes swipeRight {
-	0% {}
-	50%, 60% { -webkit-transform: translate3d(0,0,0); transform: translate(0); }
-	100% { -webkit-transform: translate3d(100%,0,0); transform: translate3d(100%,0,0); }
-} 
-
 /* Swipe down */
 .grid.swipe-down li.animate .curtain {
 	-webkit-animation: swipeDown 1.5s cubic-bezier(0.6,0,0.4,1) forwards;
@@ -206,23 +182,6 @@
 	100% { transform: translate3d(0,100%,0); transform: translate3d(0,100%,0); }
 }
 
-/* Swipe rotate */
-.grid.swipe-rotate li.animate .curtain {
-	-webkit-animation: swipeRotate 1.5s ease forwards;
-	animation: swipeRotate 1.5s ease forwards;
-}
-
-@-webkit-keyframes swipeRotate {
-	0% {} /* fixes Chrome 35.0.1916.114 issue (easing breaks) */
-	50%, 60% { -webkit-transform: rotate3d(0,0,1,0deg); }
-	100% { -webkit-transform: rotate3d(0,0,1,-90deg); }
-}
-
-@keyframes swipeRotate {
-	0% {}
-	50%, 60% { -webkit-transform: rotate3d(0,0,1,0deg); transform: rotate3d(0,0,1,0deg); }
-	100% { -webkit-transform: rotate3d(0,0,1,-90deg); transform: rotate3d(0,0,1,-90deg); }
-}
 
 /* Shadow */
 .grid li.animate .curtain::after {
