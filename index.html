@@ -16,7 +16,7 @@
         <script src="js/modernizr.custom.js"></script>
 	</head>
 
-	<!--<body>-->
+	<body>
 		<div class="container" id="waterfall">
 			<header class="header">
 				<h1>Hunger</h1>
@@ -55,22 +55,22 @@
                         <li><a><img src="img/12.jpg" alt="img12"><h3>Shitamachi Rocket</h3></a></li>
                         <li><a><img src="img/13.jpg" alt="img13"><h3>Quarterly Musashino winter of 2013 issue</h3></a></li>
                         <li><a><img src="img/14.jpg" alt="img14"><h3>MAINICHI CHUUGOKUGO April 2014</h3></a></li>
-                        <li><a><img src="img/4.jpg" alt="img04"><h3>TOWN Winter 2013</h3></a></li>
-                        <li><a><img src="img/5.jpg" alt="img05"><h3>Quarterly Musashino autumn of 2013 issue</h3></a></li>
-                        <li><a><img src="img/6.jpg" alt="img06"><h3>MONOCLE issue 69</h3></a></li>
-                        <li><a><img src="img/7.jpg" alt="img07"><h3>Real Simple May 2014</h3></a></li>
-                        <li><a><img src="img/8.jpg" alt="img08"><h3>The 65th Book Week</h3></a></li>
-                        <li><a><img src="img/9.jpg" alt="img09"><h3>Real Simple May 2014</h3></a></li>
-                        <li><a><img src="img/10.jpg" alt="img10"><h3>Quarterly Musashino spring of 2014 issue</h3></a></li>
-                        <li><a><img src="img/11.jpg" alt="img11"><h3>MAJESTY express vol. 01</h3></a></li>
-                        <li><a><img src="img/12.jpg" alt="img12"><h3>Shitamachi Rocket</h3></a></li>
-                        <li><a><img src="img/13.jpg" alt="img13"><h3>Quarterly Musashino winter of 2013 issue</h3></a></li>
-                        <li><a><img src="img/14.jpg" alt="img14"><h3>MAINICHI CHUUGOKUGO April 2014</h3></a></li>
+                        <!--<li><a><img src="img/4.jpg" alt="img04"><h3>TOWN Winter 2013</h3></a></li>-->
+                        <!--<li><a><img src="img/5.jpg" alt="img05"><h3>Quarterly Musashino autumn of 2013 issue</h3></a></li>-->
+                        <!--<li><a><img src="img/6.jpg" alt="img06"><h3>MONOCLE issue 69</h3></a></li>-->
+                        <!--<li><a><img src="img/7.jpg" alt="img07"><h3>Real Simple May 2014</h3></a></li>-->
+                        <!--<li><a><img src="img/8.jpg" alt="img08"><h3>The 65th Book Week</h3></a></li>-->
+                        <!--<li><a><img src="img/9.jpg" alt="img09"><h3>Real Simple May 2014</h3></a></li>-->
+                        <!--<li><a><img src="img/10.jpg" alt="img10"><h3>Quarterly Musashino spring of 2014 issue</h3></a></li>-->
+                        <!--<li><a><img src="img/11.jpg" alt="img11"><h3>MAJESTY express vol. 01</h3></a></li>-->
+                        <!--<li><a><img src="img/12.jpg" alt="img12"><h3>Shitamachi Rocket</h3></a></li>-->
+                        <!--<li><a><img src="img/13.jpg" alt="img13"><h3>Quarterly Musashino winter of 2013 issue</h3></a></li>-->
+                        <!--<li><a><img src="img/14.jpg" alt="img14"><h3>MAINICHI CHUUGOKUGO April 2014</h3></a></li>-->
                     </ul>
                 <!--</div>-->
 
                 <!--article-->
-                <div class="content">
+                <div class="content" id="content">
                     <div>
                         <div class="dummy-img"></div>
                         <p class="dummy-text"> a</p>
@@ -129,7 +129,8 @@
 
                             In his tech talk "Scaling Instagram", Instagram co-founder Mike Krieger cited "optimize for minimal operational burden" as a key lesson his 13-person team learned in scaling the product to tens of millions of users. [2] As a product grows, so does the operational burden per engineer, as measured by the ratio of users to engineers or of features to engineers. Facebook, for example, is well-known for touting scaling metrics like supporting over 1 million users per engineer. [3]
 
-                            Automating solutions and scripting repetitive tasks are important because they free up the engineering team to work on the actual product. Ensuring that services restart automatically if possible when they fail and that services are easily and quickly replicated at peak traffic is the only sane way to manage complexity at scale. In the short-term, there's always the tempting tradeoff of applying a quick band-aid manually rather than automating and testing a long-term fix.</p>
+                            Automating solutions and scripting repetitive tasks are important because they free up the engineering team to work on the actual product. Ensuring that services restart automatically if possible when they fail and that services are easily and quickly replicated at peak traffic is the only sane way to manage complexity at scale. In the short-term, there's always the tempting tradeoff of applying a quick band-aid manually rather than automating and testing a long-term fix.
+                        </p>
                     </div>
                     <div>
                         <div class="dummy-img"></div>
@@ -319,7 +320,7 @@
 
         <!-- /container -->
         <script src="dist/js/jquery-1.10.2.min.js"></script>
-        <!--waterfall-->
+        <!--colorScroll-->
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
@@ -336,5 +337,7 @@
         <script>
             new grid3D( document.getElementById( 'waterfall' ) );
         </script>
+        <!--waterfall-->
+        <script src="js/waterfall.js"></script>
 	</body>
 </html>
